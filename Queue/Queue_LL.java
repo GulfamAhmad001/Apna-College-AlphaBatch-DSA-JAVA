@@ -27,9 +27,9 @@ public class Queue_LL {
         public static void add(int data){
             Node newNode = new  Node(data);
 
-                //if the list is empty
-            if(isEmpty()){
-                head = tail = null;
+            // first time element ko add kar rahe hai
+            if(head == null){
+                head = tail = newNode;
                 return;
             }
 
