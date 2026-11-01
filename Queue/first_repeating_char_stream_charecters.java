@@ -38,7 +38,7 @@ public class Classrom {
     public static void main(String args[]) {
         String str = "aabccxb";
 
-        work(str);
+        printNonRepeating(str);
 
     }
 
