@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class first_repeating_char_stream_charecters {
+public class Classrom {
 
-    public static void work(String str) {
+    public static void printNonRepeating(String str) {
 
         // for storing the frequency of charecters
         int freq[] = new int[26]; // a - z
