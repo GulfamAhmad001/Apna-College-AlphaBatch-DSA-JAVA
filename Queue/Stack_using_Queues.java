@@ -41,7 +41,7 @@ public class Stack_using_Queues {
             } else {// case 2
                 while (!q2.isEmpty()) {
                     top = q2.remove();
-                    if (q1.isEmpty()) {
+                    if (q2.isEmpty()) {
                         break;
                     }
                     q1.add(top);
@@ -52,6 +52,10 @@ public class Stack_using_Queues {
         }
 
         public static int peek() {
+            if (isEmpty()) {
+                System.out.println("Stack is empty");
+                return -1;
+            }
             int top = -1;
             if (!q1.isEmpty()) { // case 1
                 while (!q1.isEmpty()) {
