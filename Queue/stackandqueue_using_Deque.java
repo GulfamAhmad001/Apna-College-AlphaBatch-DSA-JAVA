@@ -15,6 +15,20 @@ public class stackandqueueusingDeque {
             return deque.getLast();
         }
     }
+    static class Queue {
+        Deque<Integer> deque = new LinkedList<>();
+
+        public void add(int data) {
+            deque.addLast(data);
+        }
+        public int remove() {
+            return deque.removeFirst();
+        }
+        public int peek() {
+            return deque.getFirst();
+        }
+    }
+
 
     public static void main(String args[]) {
         Stack s = new Stack();
