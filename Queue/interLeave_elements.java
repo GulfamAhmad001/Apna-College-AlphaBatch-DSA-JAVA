@@ -38,6 +38,7 @@ public class interLeave_elements {
        while(!q.isEmpty()){
         System.out.print(q.remove()+" ");
        }
+        System.out.println();
 
     }
     
